@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Navbar = () => {
+export const SingIn = () => {
   return (
     <div>
-        
+
     </div>
   )
 }
