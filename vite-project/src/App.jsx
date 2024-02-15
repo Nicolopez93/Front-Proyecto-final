@@ -1,30 +1,29 @@
+import React from "react";
+import {BrowserRouter as Router,Routes, Route } from "react-router-dom";import './App.css'
 import './App.css'
-import {BrowserRouter as Router,Routes, Route } from "react-router-dom";
-import  Navbar  from './Components/Navbar/Navbar'
-import  Contacto  from './Routes/Contacto';
-import  Sucursales  from './Routes/Sucursales';
-import FlotaAutos  from './Routes/FlotaAutos';
-import  Home  from './Routes/Home';
-import  Nosotros  from './Routes/Nosotros';
+import { Navbar } from './Components/Navbar'
+import { Flota } from './Routes/Flota'
+import { Contact } from './Routes/Contact'
+import { About } from './Routes/About'
+import { Home } from './Routes/Home'
+import { Reservation } from "./Routes/Reservation";
 
 function App() {
 
   return (
-    <div>
-        <Router>
+    <Router>
           <React.Fragment>
             <Navbar/>
             <Routes>
               <Route path="/" element={<Home/>} />
               <Route path="/home" element={<Home/>} />
-              <Route path="/contacto" element={<Contacto/>} />
-              <Route path="/sucursales" element={<Sucursales/>} />
-              <Route path="/flotaautos" element={<FlotaAutos/>} />
-              <Route path="/nosotros" element={<Nosotros/>} />
+              <Route path="/flota" element={<Flota/>} />
+              <Route path="/reservation" element={<Reservation/>} />
+              <Route path="/about" element={<About/>} />
+              <Route path="/contact" element={<Contact/>} />
             </Routes>
           </React.Fragment>
         </Router>
-    </div>
   )
 }
 
