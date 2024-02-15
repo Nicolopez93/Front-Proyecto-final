@@ -6,7 +6,7 @@ function Form() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Aquí podrías agregar la lógica para iniciar sesión con el email y contraseña proporcionados
+    // agregar la lógica para iniciar sesión con el email y contraseña proporcionados
     console.log('Email:', email);
     console.log('Contraseña:', password);
   };
