@@ -10,7 +10,6 @@ import { Home } from './Routes/Home'
 import { Registrate } from './Routes/Registrate'
 import MarcasAutos from "./Components/MarcasAutos/MarcasAutos";
 
-
 function App() {
 
   return (

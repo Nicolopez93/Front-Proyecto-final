@@ -1,0 +1,44 @@
+.renta-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-image: linear-gradient(to left, #FA5C00, transparent);
+  }
+  
+  .renta-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .renta-title {
+    font-size: 1.5rem;
+    color: #0C4D9C;
+  }
+  
+  .renta-label {
+    margin-bottom: 5px;
+    color: #0C4D9C;
+  }
+  
+  .renta-input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #0C4D9C;
+    border-radius: 5px;
+  }
+  
+  .renta-button {
+    background-color: #FA5C00;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .renta-button:hover {
+    background-color: #D94700;
+  }
+  
