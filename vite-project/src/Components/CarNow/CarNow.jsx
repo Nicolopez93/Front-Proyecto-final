@@ -1,6 +1,6 @@
 import React from 'react'
-import imgcar from '../assets/car.jpeg';
-
+import imgcar from '../../assets/car.jpeg';
+import './carNow.css'
 
 export const CarNow = () => {
   return (
@@ -13,5 +13,6 @@ export const CarNow = () => {
         </div>
         <img src={imgcar} alt='car'className="car-img" />
     </div>
+
  )
 }

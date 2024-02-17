@@ -1,0 +1,49 @@
+/* Estilos para el contenedor del componente CarNow */
+.carNow-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Estilos para el contenido de texto del componente CarNow */
+.carNow-container > div {
+  flex: 1;
+}
+
+.carNow-container h1 {
+  font-size: 2rem;
+  color: #0C4D9C;
+}
+
+.carNow-container h3 {
+  font-size: 1.5rem;
+  color: #FA5C00;
+}
+
+.carNow-container p {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Estilos para el botón del componente CarNow */
+.carNow-button {
+  background-color: #FA5C00;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.carNow-button:hover {
+  background-color: #D94700;
+}
+
+/* Estilos para la imagen del componente CarNow */
+.car-img {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import imgLogo from '../assets/logo.jpeg';
+import imgLogo from '../../assets/logo.jpeg';
 import './navbar.css'
 
 export const Navbar = () => {
@@ -9,7 +9,7 @@ export const Navbar = () => {
         { path: '/about', name: 'About' },
         { path: '/flota', name: 'Flota' },
         { path: '/contact', name: 'Contact' },
-        { path: '/reservation', name: 'Reservation' },
+        { path: '/registrate', name: 'Registrate' },
       ]
 
   return (
