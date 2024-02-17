@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
+  background-image: linear-gradient(to left, #FA5C00, transparent);
 }
 
 /* Estilos para el contenido de texto del componente CarNow */

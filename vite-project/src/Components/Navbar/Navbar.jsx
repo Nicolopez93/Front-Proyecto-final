@@ -5,11 +5,10 @@ import './navbar.css'
 
 export const Navbar = () => {
     const routes = [
-        { path: '/home', name: 'Home' },
-        { path: '/about', name: 'About' },
+        { path: '/home', name: 'Inicio' },
+        { path: '/nosotros', name: 'Nosotros' },
         { path: '/flota', name: 'Flota' },
-        { path: '/contact', name: 'Contact' },
-        { path: '/registrate', name: 'Registrate' },
+        { path: '/contacto', name: 'Contacto' },
       ]
 
   return (
@@ -21,6 +20,11 @@ export const Navbar = () => {
             <Link to={route.path}>{route.name}</Link>
           </li>
         ))}
+        <li className="navbar-link">
+            <Link to="/registrate">
+                <button className="register-button">Registrate</button>
+            </Link>
+        </li>
         </ul>
     </div>
   )

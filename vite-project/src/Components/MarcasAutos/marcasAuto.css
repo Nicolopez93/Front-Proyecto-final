@@ -1,0 +1,11 @@
+.marcas-container {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.marcas-container img {
+  width: 100px; /* Ancho de cada imagen */
+  height: 100px; /* Altura de cada imagen */
+  margin-right: 10px; /* Espacio entre cada imagen */
+}

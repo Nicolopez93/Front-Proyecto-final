@@ -1,5 +1,5 @@
 import React from 'react'
-import imgcar from '../../assets/car.jpeg';
+import imgAuto from '../../assets/auto.png';
 import './carNow.css'
 
 export const CarNow = () => {
@@ -11,7 +11,7 @@ export const CarNow = () => {
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis assumenda tempore architecto, repellat similique porro laborum exercitationem minima consequuntur atque adipisci deserunt voluptate voluptatibus voluptatum labore optio autem harum enim.</p>
         <button  className="carNow-button">RENTA TU AUTO</button>
         </div>
-        <img src={imgcar} alt='car'className="car-img" />
+        <img src={imgAuto} alt='auto'className="auto-img" />
     </div>
 
  )

@@ -4,10 +4,11 @@ import './App.css'
 import { Navbar } from './Components/Navbar/Navbar'
 import { CarNow } from './Components/CarNow/CarNow'
 import { Flota } from './Routes/Flota'
-import { Contact } from './Routes/Contact'
-import { About } from './Routes/About'
+import { Contacto } from './Routes/Contacto'
+import { Nosotros } from './Routes/Nosotros'
 import { Home } from './Routes/Home'
 import { Registrate } from './Routes/Registrate'
+import MarcasAutos from "./Components/MarcasAutos/MarcasAutos";
 
 
 function App() {
@@ -17,12 +18,13 @@ function App() {
           <React.Fragment>
             <Navbar/>
             <CarNow/>
+            <MarcasAutos/>
             <Routes>
               <Route path="/" element={<Home/>} />
               <Route path="/home" element={<Home/>} />
               <Route path="/flota" element={<Flota/>} />
-              <Route path="/about" element={<About/>} />
-              <Route path="/contact" element={<Contact/>} />
+              <Route path="/nosotros" element={<Nosotros/>} />
+              <Route path="/contacto" element={<Contacto/>} />
               <Route path="/registrate" element={<Registrate/>} />
             </Routes>
           </React.Fragment>
