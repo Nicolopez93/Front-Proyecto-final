@@ -10,6 +10,7 @@ import { Home } from './Routes/Home'
 import { Registrate } from './Routes/Registrate'
 import MarcasAutos from "./Components/MarcasAutos/MarcasAutos";
 import Footer from "./Components/Footer/Footer";
+import Card from "./Components/Card/Card";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
             <Navbar/>
             <CarNow/>
             <MarcasAutos/>
+            <Card/>
             <Routes>
               <Route path="/" element={<Home/>} />
               <Route path="/home" element={<Home/>} />
