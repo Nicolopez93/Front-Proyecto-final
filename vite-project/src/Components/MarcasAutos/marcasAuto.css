@@ -1,11 +1,18 @@
 .marcas-container {
   display: flex;
-  justify-content: space-between;
-  
+  justify-content: space-around;
+  /*margin: 15px;*/
+  background-color:#FA5C00;
+  padding: 10px;
 }
 
 .marcas-container img {
-  width: 100px; /* Ancho de cada imagen */
-  height: 100px; /* Altura de cada imagen */
-  margin-right: 10px; /* Espacio entre cada imagen */
+  width: 8vw; /* Ancho de cada imagen */
+  height: auto; /* Altura de cada imagen */
+  filter: brightness(0) invert(1); /* Cambia el color de las imágenes a blanco */
+  transition: filter 0.3s ease; /* Agrega una transición suave */
+}
+
+.marcas-container img:hover {
+  filter: brightness(0) invert(1) sepia(1) saturate(10000%) hue-rotate(0deg); /* Cambia el color de las imágenes a rojo */
 }

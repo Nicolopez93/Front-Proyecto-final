@@ -1,19 +1,19 @@
 import React from 'react'
 import './marcasAuto.css'
-import toyota from '../../assets/Autos/toyota.jpg'
-import nissan from '../../assets/Autos/nissan.jpg'
-import renault from '../../assets/Autos/renault.jpg'
-import fiat from '../../assets/Autos/fiat.jpg'
-import citroen from '../../assets/Autos/citroen.jpg'
+import toyota from '../../assets/Autos/toyota.svg'
+import nissan from '../../assets/Autos/nissan.svg'
+import renault from '../../assets/Autos/renault.svg'
+import fiat from '../../assets/Autos/fiat.svg'
+import honda from '../../assets/Autos/honda.svg'
 
 const MarcasAutos = () => {
   return (
     <div className='marcas-container'>
-      <img src={toyota} alt='toyota'className="toyota-img" />
-      <img src={nissan} alt='nissan'className="nissan-img" />
-      <img src={renault} alt='renault'className="renault-img" />
-      <img src={fiat} alt='fiat'className="fiat-img" />
-      <img src={citroen} alt='citroen'className="citroen-img" />
+      <img src={toyota} alt='toyota'/>
+      <img src={nissan} alt='nissan'/>
+      <img src={renault} alt='renault'/>
+      <img src={fiat} alt='fiat'/>
+      <img src={honda} alt='honda'/>
     </div>
   )
 }

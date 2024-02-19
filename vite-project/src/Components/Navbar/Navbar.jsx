@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import imgLogo from '../../assets/logo.jpeg';
+import imgLogo from '../../assets/logotransp.png';
 import './navbar.css'
 
 export const Navbar = () => {
@@ -20,9 +20,9 @@ export const Navbar = () => {
             <Link to={route.path}>{route.name}</Link>
           </li>
         ))}
-        <li className="navbar-link">
+        <li>
             <Link to="/registrate">
-                <button className="register-button">Registrate</button>
+                <button>Registrate!</button>
             </Link>
         </li>
         </ul>
