@@ -8,10 +8,9 @@ import { Contacto } from './Routes/Contacto'
 import { Nosotros } from './Routes/Nosotros'
 import { Home } from './Routes/Home'
 import { Registrate } from './Routes/Registrate'
-import MarcasAutos from "./Components/MarcasAutos/MarcasAutos";
-import Footer from "./Components/Footer/Footer";
-import Card from "./Components/Card/Card";
-
+import { MarcasAutos } from "./Components/MarcasAutos/MarcasAutos";
+import { Footer } from "./Components/Footer/Footer";
+import { Card2 } from "./Components/Card2/Card2";
 function App() {
 
   return (
@@ -20,7 +19,7 @@ function App() {
             <Navbar/>
             <CarNow/>
             <MarcasAutos/>
-            <Card/>
+            <Card2/>
             <Routes>
               <Route path="/" element={<Home/>} />
               <Route path="/home" element={<Home/>} />

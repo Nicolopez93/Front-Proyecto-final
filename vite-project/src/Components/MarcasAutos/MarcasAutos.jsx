@@ -6,7 +6,7 @@ import renault from '../../assets/Autos/renault.svg'
 import fiat from '../../assets/Autos/fiat.svg'
 import honda from '../../assets/Autos/honda.svg'
 
-const MarcasAutos = () => {
+export const MarcasAutos = () => {
   return (
     <div className='marcas-container'>
       <img src={toyota} alt='toyota'/>
@@ -18,4 +18,3 @@ const MarcasAutos = () => {
   )
 }
 
-export default MarcasAutos
