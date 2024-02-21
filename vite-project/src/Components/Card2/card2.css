@@ -1,18 +1,22 @@
 .card {
+    color: black;
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 16px;
     width: 300px;
-    text-align: center;
 }
 
 .card img {
     width: 100%;
+    height: auto;
     border-radius: 8px;
 }
 
-.card h2 {
+.card h1 {
+    text-align: left;
     margin-top: 8px;
+    font-style: italic;
+    color: black;
 }
 
 .card p {

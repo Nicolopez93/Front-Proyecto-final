@@ -1,7 +1,7 @@
 import React from 'react'
 import './card.css'
 
-const Card = () => {
+export const Card = () => {
   return (
     <div class="plan-card">
     <h2>Volkswagen Jetta<span>Sedán 4 ptas</span></h2>
@@ -33,5 +33,3 @@ const Card = () => {
 </div>
   )
 }
-
-export default Card

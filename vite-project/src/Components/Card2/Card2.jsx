@@ -1,10 +1,11 @@
 import React from 'react'
 import './card2.css'
+import imgCronos from '../../assets/cronos.png';
 export const Card2 = () => {
   return (
     <div className="card">
-    <img src="../../assets/auto.png" alt="Descripción de la imagen"/>
-    <h2>Título del producto</h2>
+    <img src={imgCronos} alt="Hola"/>
+    <h2>Fiat Cronos</h2>
     <p>Descripción breve del producto.</p>
     <div className="iconos">
       <i className="fas fa-bed"/>
