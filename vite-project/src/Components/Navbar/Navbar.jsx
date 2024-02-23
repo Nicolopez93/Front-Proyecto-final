@@ -13,7 +13,7 @@ export const Navbar = () => {
 
   return (
     <div className="navbar-container">
-        <img src={imgLogo} alt='logo'className="navbar-logo" />
+        <a href="/home"><img src={imgLogo} alt='logo'className="navbar-logo"/></a>
         <ul className="navbar-links">
         {routes.map((route, index) => (
           <li key={index} className="navbar-link">
@@ -22,7 +22,8 @@ export const Navbar = () => {
         ))}
         <li>
             <Link to="/registrate">
-                <button>Registrate!</button>
+                <button>Iniciar sesión</button>
+                <button>Crear cuenta</button>
             </Link>
         </li>
         </ul>

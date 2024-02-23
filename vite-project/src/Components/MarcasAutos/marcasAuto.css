@@ -3,7 +3,9 @@
   justify-content: space-around;
   /*margin: 15px;*/
   background-color:#FA5C00;
+  opacity: 0.85;
   padding: 10px;
+  height: 96px;
 }
 
 .marcas-container img {

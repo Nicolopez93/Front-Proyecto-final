@@ -15,6 +15,7 @@ export const Card2 = () => {
     </div>
     <p>Precio: $XXX</p>
     <button>Alquilar</button>
+    
 </div>
 
   )

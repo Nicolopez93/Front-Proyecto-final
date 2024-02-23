@@ -3,9 +3,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
   background-image: linear-gradient(to left, #FA5C00, transparent);
-}
+  /* opacity: 0.60; */
+  /* background-image: url(../../assets/worldmapback.svg); 
+  background-size: cover;
+  background-repeat: no-repeat; */
+  height: 80vh;}
+
 
 /* Estilos para el contenido de texto del componente CarNow */
 .carNow-container > div {

@@ -1,0 +1,7 @@
+.buscador-bg {
+    opacity: 0.20;
+    background-image: url(../../assets/worldmapback.svg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}

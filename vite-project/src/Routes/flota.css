@@ -1,0 +1,10 @@
+.contenedor-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 5fr);
+    grid-gap: 16px;
+    background-image: linear-gradient(to left, #FA5C00, transparent);    
+}
+
+.contenedor-cards2 {
+    background-color: white;
+}
