@@ -1,0 +1,8 @@
+.administrador-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: linear-gradient(to left, #FA5C00, transparent);
+    min-height: 100vh;
+}

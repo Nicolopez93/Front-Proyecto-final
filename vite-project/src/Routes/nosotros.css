@@ -1,0 +1,37 @@
+.nosotros-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to left, #FA5C00, transparent);
+    height: 80vh;
+}
+  
+  /* Estilos para el texto sobre nosotros */
+  .nosotros-text {
+    flex: 1; /* El texto ocupará el espacio disponible */
+    padding: 0 20px; /* Ajusta el espaciado a tu gusto */
+  }
+  
+  /* Estilos para el título */
+  .nosotros-text h1 {
+    font-size: 2rem;
+    color: #0C4D9C;
+}
+  
+  /* Estilos para el párrafo */
+  .nosotros-text p {
+    font-size: 1rem;
+  color: #333;
+  }
+  
+  /* Estilos para el contenedor de la imagen */
+  .nosotros-image-container {
+    flex: 1; /* La imagen ocupará el espacio disponible */
+    padding: 0 20px; /* Ajusta el espaciado a tu gusto */
+  }
+  
+  /* Estilos para la imagen */
+  .nosotros-image {
+    width: 100%; /* Ajusta el ancho de la imagen */
+    height: auto; /* La altura se ajustará automáticamente */
+  }

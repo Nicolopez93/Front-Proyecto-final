@@ -9,6 +9,7 @@ export const Navbar = () => {
         { path: '/nosotros', name: 'Nosotros' },
         { path: '/flota', name: 'Flota' },
         { path: '/contacto', name: 'Contacto' },
+        { path: '/administrador', name: 'Administrador' },
       ]
 
   return (

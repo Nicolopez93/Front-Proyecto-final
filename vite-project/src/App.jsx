@@ -9,20 +9,20 @@ import { Home } from './Routes/Home'
 import { Registrate } from './Routes/Registrate'
 import { MarcasAutos } from "./Components/MarcasAutos/MarcasAutos";
 import { Footer } from "./Components/Footer/Footer";
-import { CarNow } from "./Components/CarNow/CarNow";
+import {Administrador} from './Routes/Administrador';
 function App() {
 
   return (
     <Router>
           <React.Fragment>
             <Navbar/>
-            <CarNow/>
             <Routes>
               <Route path="/" element={<Home/>} />
               <Route path="/home" element={<Home/>} />
               <Route path="/flota" element={<Flota/>} />
               <Route path="/nosotros" element={<Nosotros/>} />
               <Route path="/contacto" element={<Contacto/>} />
+              <Route path="/administrador" element={<Administrador/>} />
               <Route path="/registrate" element={<Registrate/>} />
             </Routes>
             <MarcasAutos/>
